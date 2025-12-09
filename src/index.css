@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* index.css or global styles */
+html {
+  scroll-behavior: smooth;
+}
+.typing::after,
+.typing2::after {
+  content: "|";
+  animation: blink 1s step-start infinite;
+  margin-left: 5px;
+  color: black;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
