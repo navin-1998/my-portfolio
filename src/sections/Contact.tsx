@@ -15,11 +15,13 @@ const Contact = () => {
         >
           <h1 className="text-4xl font-bold mb-6 md:mb-0">Let's Work Together</h1>
           <a
-            href="mailto:navintech77@gmail.com"
-            className="bg-purple-600 hover:bg-purple-700 text-white py-3 px-6 rounded-md text-lg font-medium"
-          >
-            Say Hello
-          </a>
+    href="https://mail.google.com/mail/?view=cm&fs=1&to=navintech77@gmail.com"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-purple-600 hover:bg-purple-700 text-white py-3 px-6 rounded-md text-lg font-medium"
+  >
+    Say Hello
+  </a>
         </motion.div>
 
         {/* Contact Info */}
@@ -46,7 +48,7 @@ const Contact = () => {
           </div>
 
           {/* You can optionally enable this if you want the contact form */}
-          {/* <div>
+          { <div>
             <p className="mb-4 text-gray-700">The contact form is currently inactive.</p>
             <form className="space-y-4">
               <input type="text" placeholder="Your Name" className="w-full border border-gray-300 rounded-md p-3" />
@@ -57,7 +59,7 @@ const Contact = () => {
                 Send Message
               </button>
             </form>
-          </div> */}
+          </div> }
         </motion.div>
       </div>
     </section>

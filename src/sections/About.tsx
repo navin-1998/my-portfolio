@@ -78,7 +78,7 @@ const About = () => {
               Happy Clients
             </h5>
             <p className="mt-2 text-gray-700">
-              With over 1.8 years in frontend development, I've helped numerous clients build responsive and user-friendly web applications.
+              With over 1.8 years in frontend development & Backend development, I've helped numerous clients build responsive and user-friendly web applications.
             </p>
           </div>
 
